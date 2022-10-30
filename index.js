@@ -16,12 +16,7 @@ buttons.forEach((x)=> {
         else if(text=="c"){
             showval="";
             va.value=showval;
-    }
-    else if(text=="="){
-        showval= va.value;
-            va.value = eval(showval);
-            console.log(showval);
-            
+  
         }else{
             va.value +=text;
             showval=va.value;
@@ -29,7 +24,7 @@ buttons.forEach((x)=> {
         }
         
     })
-    // document.getElementById("va").innerHTML=showval;
+    
 })
 
 
